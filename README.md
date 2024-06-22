@@ -1,0 +1,2 @@
+# hyprland-adjustment
+hyprland-adjustment
