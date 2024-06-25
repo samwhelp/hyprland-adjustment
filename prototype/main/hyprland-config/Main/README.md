@@ -23,6 +23,8 @@
 | Fedora Package |
 | --- |
 | [hyprland](https://packages.fedoraproject.org/pkgs/hyprland/hyprland/) |
+| [hyprpaper](https://packages.fedoraproject.org/pkgs/hyprpaper/hyprpaper/) |
+| [hyprlock](https://packages.fedoraproject.org/pkgs/hyprlock/hyprlock/) |
 | [wf-shell](https://packages.fedoraproject.org/pkgs/wf-shell/wf-shell/) |
 | [wlogout](https://packages.fedoraproject.org/pkgs/wlogout/wlogout/) |
 
