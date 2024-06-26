@@ -2,31 +2,23 @@
 
 # Hyprland Config
 
+* [Config File Path](#config-file-path)
+* [Docs](#docs)
+* [Usage](#usage)
 
 
 
 ## Config File Path
 
+* [hyprland](#hyprland)
 
-### Hyprland
+
+### hyprland
 
 | Config File Path |
 | --- |
 | [~/.config/hypr/hyprland.conf](./asset/overlay/etc/skel/.config/hypr/hyprland.conf) |
 | [~/.config/hypr/hyprpaper.conf](./asset/overlay/etc/skel/.config/hypr/hyprpaper.conf) |
-
-
-
-
-## Fedora Package
-
-| Fedora Package |
-| --- |
-| [hyprland](https://packages.fedoraproject.org/pkgs/hyprland/hyprland/) |
-| [hyprpaper](https://packages.fedoraproject.org/pkgs/hyprpaper/hyprpaper/) |
-| [hyprlock](https://packages.fedoraproject.org/pkgs/hyprlock/hyprlock/) |
-| [wf-shell](https://packages.fedoraproject.org/pkgs/wf-shell/wf-shell/) |
-| [wlogout](https://packages.fedoraproject.org/pkgs/wlogout/wlogout/) |
 
 
 ## Docs
@@ -97,4 +89,3 @@ or run
 ``` sh
 make config-install
 ```
-
