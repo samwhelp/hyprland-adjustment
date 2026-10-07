@@ -97,7 +97,7 @@ hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("mousepad"))
 -- ## Keybindings / Keybind / Application / Web Browser
 --------------------------------------------------------------------------------
 
-hl.bind("ALT + SHIFT + b", hl.dsp.exec_cmd("firefox"))
+hl.bind("ALT + SHIFT + b", hl.dsp.exec_cmd("firefox --new-tab about:blank"))
 
 
 
