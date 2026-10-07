@@ -208,3 +208,6 @@ hl.bind("ALT + CTRL + z", hl.dsp.exec_cmd("systemctl -i poweroff"))
 
 local closeWindowBind = hl.bind("SUPER + q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
+
+
+hl.bind("SUPER + f", hl.dsp.window.fullscreen())
