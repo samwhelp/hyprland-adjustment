@@ -1,3 +1,9 @@
+
+
+--------------------------------------------------------------------------------
+--
+-- ## Note
+--
 -- This is an example Hyprland Lua config file.
 -- Refer to the wiki for more information.
 -- https://wiki.hypr.land/configuring/
@@ -8,11 +14,15 @@
 -- You can (and should!!) split this configuration into multiple files
 -- Create your files separately and then require them like this:
 -- require("myColors")
+--
+--------------------------------------------------------------------------------
 
 
-------------------
----- MONITORS ----
-------------------
+
+
+--------------------------------------------------------------------------------
+-- ## MONITORS
+--------------------------------------------------------------------------------
 
 -- See https://wiki.hypr.land/configuring/core/monitors/
 hl.monitor({
@@ -23,9 +33,11 @@ hl.monitor({
 })
 
 
----------------------
----- MY PROGRAMS ----
----------------------
+
+
+--------------------------------------------------------------------------------
+-- ## MY PROGRAMS
+--------------------------------------------------------------------------------
 
 -- Set programs that you use
 local terminal    = "kitty"
@@ -33,12 +45,15 @@ local fileManager = "dolphin"
 local menu        = "hyprlauncher"
 
 
--------------------
----- AUTOSTART ----
--------------------
+
+
+--------------------------------------------------------------------------------
+-- ## AUTOSTART
+--------------------------------------------------------------------------------
 
 -- See https://wiki.hypr.land/configuring/core/autostart/
 
+--
 -- Autostart necessary processes (like notifications daemons, status bars, etc.)
 -- Or execute your favorite apps at launch like this:
 --
@@ -47,11 +62,14 @@ local menu        = "hyprlauncher"
 --   hl.exec_cmd("nm-applet")
 --   hl.exec_cmd("waybar & hyprpaper & firefox")
 -- end)
+--
 
 
--------------------------------
----- ENVIRONMENT VARIABLES ----
--------------------------------
+
+
+--------------------------------------------------------------------------------
+-- ## ENVIRONMENT VARIABLES
+--------------------------------------------------------------------------------
 
 -- See https://wiki.hypr.land/configuring/core/environment-variables/
 
@@ -59,9 +77,11 @@ hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 
 
------------------------
------ PERMISSIONS -----
------------------------
+
+
+--------------------------------------------------------------------------------
+-- ## PERMISSIONS
+--------------------------------------------------------------------------------
 
 -- See https://wiki.hypr.land/configuring/core/advanced-configuration/permissions/
 -- Please note permission changes here require a Hyprland restart and are not applied on-the-fly
@@ -78,9 +98,11 @@ hl.env("HYPRCURSOR_SIZE", "24")
 -- hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
 
 
------------------------
----- LOOK AND FEEL ----
------------------------
+
+
+--------------------------------------------------------------------------------
+-- ## LOOK AND FEEL
+--------------------------------------------------------------------------------
 
 -- Refer to https://wiki.hypr.land/configuring/core/config-options/
 hl.config({
@@ -199,9 +221,12 @@ hl.config({
     },
 })
 
-----------------
-----  MISC  ----
-----------------
+
+
+
+--------------------------------------------------------------------------------
+-- ## MISC
+--------------------------------------------------------------------------------
 
 hl.config({
     misc = {
@@ -211,9 +236,11 @@ hl.config({
 })
 
 
----------------
----- INPUT ----
----------------
+
+
+--------------------------------------------------------------------------------
+-- ## INPUT
+--------------------------------------------------------------------------------
 
 hl.config({
     input = {
@@ -247,9 +274,11 @@ hl.device({
 })
 
 
----------------------
----- KEYBINDINGS ----
----------------------
+
+
+--------------------------------------------------------------------------------
+-- ## KEYBINDINGS
+--------------------------------------------------------------------------------
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
@@ -305,9 +334,11 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 
---------------------------------
----- WINDOWS AND WORKSPACES ----
---------------------------------
+
+
+--------------------------------------------------------------------------------
+-- ## WINDOWS AND WORKSPACES
+--------------------------------------------------------------------------------
 
 -- See https://wiki.hypr.land/configuring/core/rules/
 
