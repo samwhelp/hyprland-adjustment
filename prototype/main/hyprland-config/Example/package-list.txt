@@ -1,0 +1,78 @@
+
+
+##
+## # Hyprland
+##
+
+
+
+
+##
+## ## Package / Hyprland
+##
+
+hyprland
+wlogout
+
+
+
+
+##
+## ## Package / Wallpaper
+##
+
+hyprpaper
+#swaybg
+#azote
+#wf-shell
+
+
+
+
+##
+## ## Package / Theme / Papirus
+##
+
+papirus-icon-theme
+
+
+
+
+##
+## ## Package / Theme / Numix
+##
+
+numix-gtk-theme
+numix-icon-theme
+numix-icon-theme-circle
+numix-icon-theme-square
+
+
+
+
+
+##
+## ## Package  / Theme / Arc
+##
+
+arc-theme
+#arc-kde
+
+
+
+##
+## ## Package  / Theme / Materia
+##
+
+materia-gtk-theme
+
+
+
+
+##
+## ## Package / Theme / Breeze
+##
+
+#breeze-gtk
+#breeze-icon-theme
+breeze-cursor-theme
