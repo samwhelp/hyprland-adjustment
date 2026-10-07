@@ -66,6 +66,7 @@ hl.bind("SUPER + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 -- ## Keybindings / Keybind / Application / Terminal
 --------------------------------------------------------------------------------
 
+-- Normal
 hl.bind("SUPER + Return", hl.dsp.exec_cmd("xfce4-terminal"))
 hl.bind("ALT + Return", hl.dsp.exec_cmd("xfce4-terminal"))
 
@@ -74,6 +75,10 @@ hl.bind("ALT + CTRL + a", hl.dsp.exec_cmd("lxterminal"))
 
 hl.bind("ALT + SHIFT + t", hl.dsp.exec_cmd("kitty"))
 hl.bind("ALT + CTRL + t", hl.dsp.exec_cmd("kitty"))
+
+
+-- Drop Down
+-- hl.bind("ALT + SHIFT + y", hl.dsp.exec_cmd("xfce4-terminal --drop-down"))
 
 
 
