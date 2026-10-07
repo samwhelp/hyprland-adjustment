@@ -282,6 +282,48 @@ hl.device({
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Mousebind
+--------------------------------------------------------------------------------
+
+-- Scroll through existing workspaces with mainMod + scroll
+-- hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
+-- hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+
+-- Move/resize windows with mainMod + LMB/RMB and dragging
+-- hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+-- hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+
+-- Move window with `Super + [Left Mouse Button Drag]`
+hl.bind("SUPER + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+
+-- Move window with `Super + [Right Mouse Button Drag]`
+hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+
+-- Toggle floating of window with `Super + [Middle Mouse Button Click]`
+hl.bind("SUPER + mouse:274", hl.dsp.window.float({ action = "toggle" }), { mouse = true })
+
+-- Toggle floating of window with `ALT + [Middle Mouse Button Click]`
+hl.bind("ALT + mouse:274", hl.dsp.window.float({ action = "toggle" }), { mouse = true })
+
+
+-- Switch workspace with `Super + [Middle Mouse Button Scroll]`
+hl.bind("SUPER + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
+hl.bind("SUPER + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind
+--------------------------------------------------------------------------------
+
+
 -- Example binds, see https://wiki.hypr.land/configuring/core/binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
@@ -310,14 +352,6 @@ end
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",		 hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
-
--- Scroll through existing workspaces with mainMod + scroll
-hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
-
--- Move/resize windows with mainMod + LMB/RMB and dragging
-hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
-hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 5%+"), { locked = true, repeating = true })
