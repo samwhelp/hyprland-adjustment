@@ -289,6 +289,11 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 -- ## Keybindings / Mousebind
 --------------------------------------------------------------------------------
 
+--
+-- * https://wiki.hypr.land/configuring/core/binds/devices/mouse/
+--
+
+
 -- Scroll through existing workspaces with mainMod + scroll
 -- hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
 -- hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
@@ -323,11 +328,12 @@ hl.bind("SUPER + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 -- ## Keybindings / Keybind
 --------------------------------------------------------------------------------
 
+local closeWindowBind = hl.bind("SUPER + q", hl.dsp.window.close())
+-- closeWindowBind:set_enabled(false)
 
 -- Example binds, see https://wiki.hypr.land/configuring/core/binds/ for more
-hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
-local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
--- closeWindowBind:set_enabled(false)
+--hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
+
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
