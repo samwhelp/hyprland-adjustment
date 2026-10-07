@@ -10,7 +10,7 @@
 | Link | GitHub |
 | ---- | ------ |
 | [Hyprland Adjustment](https://samwhelp.github.io/hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/hyprland-adjustment) |
-| [Hyprland 探索筆記](https://samwhelp.github.io/note-about-hyprland/) | [GitHub](https://github.com/samwhelp/note-about-hyprland) |
+| [Hyprland Note](https://samwhelp.github.io/note-about-hyprland/) | [GitHub](https://github.com/samwhelp/note-about-hyprland) |
 
 
 
