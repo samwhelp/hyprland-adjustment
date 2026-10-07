@@ -290,7 +290,7 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 --------------------------------------------------------------------------------
 
 --
--- * https://wiki.hypr.land/configuring/core/binds/devices/mouse/
+-- See: https://wiki.hypr.land/configuring/core/binds/devices/mouse/
 --
 
 
