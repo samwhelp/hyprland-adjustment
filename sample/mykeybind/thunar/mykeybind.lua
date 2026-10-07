@@ -164,6 +164,28 @@ hl.bind("ALT + SHIFT + r", hl.dsp.exec_cmd("pkill wofi || wofi --show run"))
 
 
 --------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / System
+--------------------------------------------------------------------------------
+
+
+-- Reload
+hl.bind("ALT + SHIFT + c", hl.dsp.exec_cmd("hyprctl reload"))
+hl.bind("ALT + CTRL + c", hl.dsp.exec_cmd("hyprctl reload"))
+
+
+-- Logout
+hl.bind("ALT + SHIFT + x", hl.dsp.exec_cmd("wlogout"))
+hl.bind("ALT + CTRL + x", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
+
+
+-- Halt
+hl.bind("ALT + SHIFT + z", hl.dsp.exec_cmd("wlogout"))
+hl.bind("ALT + CTRL + z", hl.dsp.exec_cmd("systemctl -i poweroff"))
+
+
+
+
+--------------------------------------------------------------------------------
 -- ## Keybindings / Keybind / Window
 --------------------------------------------------------------------------------
 
