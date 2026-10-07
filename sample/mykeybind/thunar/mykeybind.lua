@@ -85,8 +85,10 @@ hl.bind("ALT + SHIFT + g", hl.dsp.exec_cmd("pcmanfm"))
 -- ## Keybindings / Keybind / Application / Text Editor
 --------------------------------------------------------------------------------
 
--- hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("mousepad"))
-hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("subl"))
+hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("mousepad"))
+-- hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("featherpad"))
+-- hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("geany"))
+-- hl.bind("ALT + SHIFT + e", hl.dsp.exec_cmd("subl"))
 
 
 
