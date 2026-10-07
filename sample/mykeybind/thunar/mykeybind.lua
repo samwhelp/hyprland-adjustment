@@ -234,3 +234,6 @@ hl.bind("SUPER + w", hl.dsp.window.fullscreen({ mode = "maximized", action = "to
 
 -- Window Toggle Floating
 hl.bind("SUPER + Escape", hl.dsp.window.float({ action = "toggle" }))
+
+-- Window Move Center
+hl.bind("SUPER + m", hl.dsp.window.center({ action = "toggle" }))
