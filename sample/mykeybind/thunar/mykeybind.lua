@@ -6,6 +6,12 @@
 -- ## Keybindings
 --------------------------------------------------------------------------------
 
+--
+-- See:
+--
+-- * https://wiki.hypr.land/configuring/core/dispatchers/
+--
+
 
 
 
@@ -14,7 +20,9 @@
 --------------------------------------------------------------------------------
 
 --
--- See: https://wiki.hypr.land/configuring/core/binds/devices/mouse/
+-- See:
+--
+-- https://wiki.hypr.land/configuring/core/binds/devices/mouse/
 --
 
 
@@ -206,8 +214,14 @@ hl.bind("ALT + CTRL + z", hl.dsp.exec_cmd("systemctl -i poweroff"))
 -- ## Keybindings / Keybind / Window
 --------------------------------------------------------------------------------
 
+
+-- Window Close
 local closeWindowBind = hl.bind("SUPER + q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 
 
-hl.bind("SUPER + f", hl.dsp.window.fullscreen())
+-- Window Fullscreen
+hl.bind("SUPER + f", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
+
+-- Window Maximize
+hl.bind("SUPER + w", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
