@@ -218,7 +218,7 @@ hl.bind("ALT + CTRL + z", hl.dsp.exec_cmd("systemctl -i poweroff"))
 
 
 --------------------------------------------------------------------------------
--- ## Keybindings / Keybind / Window / Main Control
+-- ## Keybindings / Keybind / Window / Control
 --------------------------------------------------------------------------------
 
 -- Window Close
