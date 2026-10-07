@@ -215,13 +215,22 @@ hl.bind("ALT + CTRL + z", hl.dsp.exec_cmd("systemctl -i poweroff"))
 --------------------------------------------------------------------------------
 
 
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Window / Control
+--------------------------------------------------------------------------------
+
 -- Window Close
 local closeWindowBind = hl.bind("SUPER + q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 
 
--- Window Fullscreen
+-- Window Toggle Fullscreen
 hl.bind("SUPER + f", hl.dsp.window.fullscreen({ mode = "fullscreen", action = "toggle" }))
 
--- Window Maximize
+-- Window Toggle Maximize
 hl.bind("SUPER + w", hl.dsp.window.fullscreen({ mode = "maximized", action = "toggle" }))
+
+-- Window Toggle Floating
+hl.bind("SUPER + Escape", hl.dsp.window.float({ action = "toggle" }))
