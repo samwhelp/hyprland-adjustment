@@ -2,10 +2,18 @@
 
 # Hyprland Config
 
+* [Notice](#notice)
 * [Config File Path](#config-file-path)
 * [Docs](#docs)
 * [Usage](#usage)
 * [Source](#source)
+
+
+
+
+## Notice
+
+> Starting with version `v0.55`, Hyprland offers native support for writing configuration files in `Lua`, meaning `hyprland.lua` replaces the old `hyprland.conf`. Support for the legacy syntax is expected to be completely phased out within one or two releases following v0.55.
 
 
 
