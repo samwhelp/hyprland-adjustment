@@ -56,6 +56,13 @@ hl.bind("SUPER + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 
 
 --------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Application
+--------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------
 -- ## Keybindings / Keybind / Application / Terminal
 --------------------------------------------------------------------------------
 
@@ -125,6 +132,33 @@ hl.bind("ALT + SHIFT + v", hl.dsp.exec_cmd("mate-volume-control"))
 --------------------------------------------------------------------------------
 
 hl.bind("ALT + SHIFT + n", hl.dsp.exec_cmd("kitty --class 'nmtui' --title 'Network Settings' nmtui"))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Launcher
+--------------------------------------------------------------------------------
+
+hl.bind("ALT + F1", hl.dsp.exec_cmd("nwg-drawer -mb 10 -mr 10 -ml 10 -mt 10"))
+hl.bind("ALT + F2", hl.dsp.exec_cmd("pkill wofi || wofi --normal-window --show drun --allow-images"))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Launcher / Wofi
+--------------------------------------------------------------------------------
+
+--
+-- See:
+--
+-- * https://man.archlinux.org/man/wofi.1.en
+-- * https://archlinux.org/packages/community/x86_64/wofi/
+--
+
+hl.bind("ALT + SHIFT + d", hl.dsp.exec_cmd("pkill wofi || wofi --normal-window --show drun --allow-images"))
+hl.bind("ALT + SHIFT + r", hl.dsp.exec_cmd("pkill wofi || wofi --show run"))
 
 
 
