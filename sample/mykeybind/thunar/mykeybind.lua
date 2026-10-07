@@ -218,7 +218,7 @@ hl.bind("ALT + CTRL + z", hl.dsp.exec_cmd("systemctl -i poweroff"))
 
 
 --------------------------------------------------------------------------------
--- ## Keybindings / Keybind / Window / Control
+-- ## Keybindings / Keybind / Window / Main Control
 --------------------------------------------------------------------------------
 
 -- Window Close
@@ -237,3 +237,16 @@ hl.bind("SUPER + Escape", hl.dsp.window.float({ action = "toggle" }))
 
 -- Window Move Center
 hl.bind("SUPER + m", hl.dsp.window.center({ action = "toggle" }))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Window / Focus
+--------------------------------------------------------------------------------
+
+-- Move focus with `Super + <Arrow Key>`
+hl.bind("SUPER + up", hl.dsp.focus({ direction = "up" }))
+hl.bind("SUPER + down", hl.dsp.focus({ direction = "down" }))
+hl.bind("SUPER + left", hl.dsp.focus({ direction = "left" }))
+hl.bind("SUPER + right", hl.dsp.focus({ direction = "right" }))
