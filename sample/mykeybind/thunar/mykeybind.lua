@@ -103,6 +103,33 @@ hl.bind("ALT + SHIFT + b", hl.dsp.exec_cmd("firefox --new-tab about:blank"))
 
 
 --------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Application / System Settings
+--------------------------------------------------------------------------------
+
+hl.bind("ALT + SHIFT + s", hl.dsp.exec_cmd("nwg-look"))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Application / Volume Control
+--------------------------------------------------------------------------------
+
+hl.bind("ALT + SHIFT + v", hl.dsp.exec_cmd("mate-volume-control"))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Application / Network Settings
+--------------------------------------------------------------------------------
+
+hl.bind("ALT + SHIFT + n", hl.dsp.exec_cmd("kitty --class 'nmtui' --title 'Network Settings' nmtui"))
+
+
+
+
+--------------------------------------------------------------------------------
 -- ## Keybindings / Keybind / Window
 --------------------------------------------------------------------------------
 
