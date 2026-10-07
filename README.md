@@ -2,6 +2,11 @@
 
 # hyprland-adjustment
 
+
+
+
+## Home
+
 | Link | GitHub |
 | ---- | ------ |
 | [Hyprland Adjustment](https://samwhelp.github.io/hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/hyprland-adjustment) |
@@ -11,18 +16,18 @@
 
 ## Subject
 
-* [Adjustment](#adjustment)
+* [Script](#script)
 * [ISO Builder](#iso-builder)
 * [Link](#link)
 
 
 
 
-## Adjustment
+## Script
 
-| Adjustment |
-| -------- |
-| [Hyprland](https://github.com/samwhelp/hyprland-adjustment/tree/main/prototype/main/hyprland-config/Main) |
+| Script |
+| ------ |
+| [Hyprland Config](https://github.com/samwhelp/hyprland-adjustment/tree/main/prototype/main/hyprland-config/Main) |
 
 
 
@@ -44,3 +49,10 @@
 | [Garuda Hyprland Adjustment](https://samwhelp.github.io/garuda-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/garuda-hyprland-adjustment) |
 | [Fedora Hyprland Adjustment](https://samwhelp.github.io/fedora-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-hyprland-adjustment) |
 | [Ultramarine Hyprland Adjustment](https://samwhelp.github.io/ultramarine-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/ultramarine-hyprland-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
