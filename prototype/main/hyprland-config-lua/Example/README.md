@@ -29,7 +29,7 @@
 
 | Config File Path |
 | --- |
-| [~/.config/hypr/hyprland.conf](./asset/overlay/etc/skel/.config/hypr/hyprland.conf) |
+| [~/.config/hypr/hyprland.lua](./asset/overlay/etc/skel/.config/hypr/hyprland.lua) |
 | [~/.config/hypr/hyprpaper.conf](./asset/overlay/etc/skel/.config/hypr/hyprpaper.conf) |
 
 
