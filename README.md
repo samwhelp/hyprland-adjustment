@@ -24,6 +24,7 @@
 | Script |
 | ------ |
 | [Hyprland Config](https://github.com/samwhelp/hyprland-adjustment/tree/main/prototype/main/hyprland-config/Main) |
+| [Hyprland Config Lua](https://github.com/samwhelp/hyprland-adjustment/tree/main/prototype/main/hyprland-config-lua/Main) |
 
 
 
