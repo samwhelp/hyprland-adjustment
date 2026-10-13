@@ -37,7 +37,7 @@
 
 ## Docs
 
-* [Master Layout](https://wiki.hyprland.org/Configuring/Master-Layout/)
+* [Master Layout](https://wiki.hypr.land/configuring/layouts/master-layout/)
 
 
 
