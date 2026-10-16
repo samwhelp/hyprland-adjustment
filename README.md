@@ -42,6 +42,20 @@
 
 | Link | GitHub |
 | ---- | ------ |
+| [Quickshell Adjustment](https://samwhelp.github.io/quickshell-adjustment/) | [GitHub](https://github.com/samwhelp/quickshell-adjustment) |
+
+
+| Link | GitHub |
+| ---- | ------ |
+| [Wayland Adjustment](https://samwhelp.github.io/wayland-adjustment/) | [GitHub](https://github.com/samwhelp/wayland-adjustment) |
+| [Niri Adjustment](https://samwhelp.github.io/niri-adjustment/) | [GitHub](https://github.com/samwhelp/niri-adjustment) |
+| [Mangowm Adjustment](https://samwhelp.github.io/mangowm-adjustment/) | [GitHub](https://github.com/samwhelp/mangowm-adjustment) |
+| [River Adjustment](https://samwhelp.github.io/riverwm-adjustment/) | [GitHub](https://github.com/samwhelp/riverwm-adjustment) |
+| [Sway Adjustment](https://samwhelp.github.io/sway-adjustment/) | [GitHub](https://github.com/samwhelp/sway-adjustment) |
+
+
+| Link | GitHub |
+| ---- | ------ |
 | [System Modeling](https://samwhelp.github.io/system-modeling/) | [GitHub](https://github.com/samwhelp/system-modeling) |
 | [Garuda Hyprland Adjustment](https://samwhelp.github.io/garuda-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/garuda-hyprland-adjustment) |
 | [Fedora Hyprland Adjustment](https://samwhelp.github.io/fedora-hyprland-adjustment/) | [GitHub](https://github.com/samwhelp/fedora-hyprland-adjustment) |
