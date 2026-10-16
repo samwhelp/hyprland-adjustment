@@ -329,6 +329,30 @@ end)
 
 
 --------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Window / Move
+--------------------------------------------------------------------------------
+
+hl.bind("SUPER + SHIFT + up", hl.dsp.window.move({ x = 0, y = -50, relative = true }), { repeating = true })
+hl.bind("SUPER + SHIFT + down", hl.dsp.window.move({ x = 0, y = 50, relative = true }), { repeating = true })
+hl.bind("SUPER + SHIFT + left", hl.dsp.window.move({ x = -50, y = 0, relative = true }), { repeating = true })
+hl.bind("SUPER + SHIFT + right", hl.dsp.window.move({ x = 50, y = 0, relative = true }), { repeating = true })
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Window / Resize
+--------------------------------------------------------------------------------
+
+hl.bind("SUPER + CTRL + up", hl.dsp.window.resize({ x = 0, y = -50, relative = true }), { repeating = true })
+hl.bind("SUPER + CTRL + down", hl.dsp.window.resize({ x = 0, y = 50, relative = true }), { repeating = true })
+hl.bind("SUPER + CTRL + left", hl.dsp.window.resize({ x = -50, y = 0, relative = true }), { repeating = true })
+hl.bind("SUPER + CTRL + right", hl.dsp.window.resize({ x = 50, y = 0, relative = true }), { repeating = true })
+
+
+
+
+--------------------------------------------------------------------------------
 -- ## Keybindings / Keybind / Workspace
 --------------------------------------------------------------------------------
 
@@ -370,6 +394,49 @@ for i = 1, 10 do
 	hl.bind("SUPER + " .. key, hl.dsp.focus({ workspace = i}))
 	hl.bind("SUPER + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Layout
+--------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Layout / Master
+--------------------------------------------------------------------------------
+
+-- Switch orientation on layout master with `ALT +[grave,Tab]`
+hl.bind("ALT + grave", hl.dsp.layout("orientationprev"))
+hl.bind("ALT + Tab", hl.dsp.layout("orientationnext"))
+
+-- Master window number
+hl.bind("ALT + o", hl.dsp.layout("removemaster"))
+hl.bind("ALT + p", hl.dsp.layout("addmaster"))
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Screenshot
+--------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Wallpaper
+--------------------------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------------------------
+-- ## Keybindings / Keybind / Panel
+--------------------------------------------------------------------------------
 
 
 
